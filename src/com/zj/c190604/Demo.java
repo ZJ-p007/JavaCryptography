@@ -9,7 +9,7 @@ import java.security.spec.InvalidKeySpecException;
 
 public class Demo {
     String key = "c190604";//设定的密钥
-    String data = "南昌的冬天忒冷了";
+   static String data = "南昌的冬天忒冷了";
 
     static String str = "P007";//字符串
 
@@ -83,7 +83,7 @@ public class Demo {
         //返回值语句
         return null;//null关键字
     }
-
+//https://github.com/ZJ-p007/JavaCryptography.git
     //方法二:解密
     public byte[] decrypt(byte[] cipherTxt, byte[] key) {
         try {
@@ -110,6 +110,6 @@ public class Demo {
         }
         return null;
     }
-
+//https://github.com/ZJ-p007/JavaCryptography.git
 
 }
